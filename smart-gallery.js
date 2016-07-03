@@ -9,7 +9,7 @@
                 thumbnailscrollspeed: 2000,
                 animationspeed: 2000,
                 stickthumbnails: false,
-                imagedisplaytime: 10000
+                imagedisplaytime: 5000
             }, options);
             return this.each(function() {
                 var gallerywrapper;
