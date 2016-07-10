@@ -21,12 +21,29 @@
             padding: 0;
             background-image: url('img/170.png');
         }
-
+        a.button7 {
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            padding: .8em 1em calc(.8em + 3px);
+            border-radius: 3px;
+            background: rgb(33, 134, 199);
+            box-shadow: 0 -3px rgb(33, 87, 167) inset;
+            transition: 0.2s;
+        }
+        a.button7:hover { background: rgb(5, 104, 167); }
+        a.button7:active {
+            background: rgb(20, 41, 147);
+            box-shadow: 0 3px rgb(29, 25, 147) inset;
+        }
     </style>
 </head>
 <body>
 <embed src="music/music.mp3" type="audio/mpeg" hidden="true" autostart="true" loop="true"></embed>
 <!-- <bgsound src="music/music2.wave" loop="1"></bgsound> -->
+<div style="text-align:center">
+    <a href="../index.html" class="button7">На главную</a>
+</div>
 <div id="smart-gallery">
     <a href="img/1.jpg" title="Team - 6"><img src="img/1.jpg"/></a>
     <a href="img/2.jpg" title="Team - 6"><img src="img/2.jpg"/></a>
@@ -49,5 +66,6 @@
     <a href="img/19.jpg" title="Team - 6"><img src="img/19.jpg"/></a>
     <a href="img/20.jpg" title="Team - 6"><img src="img/20.jpg"/></a>
 </div>
+
 </body>
 </html>
